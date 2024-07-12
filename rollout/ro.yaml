@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: apache
-        image: httpd:2.4.56
+        image: httpd:2.4.57
         ports:
         - containerPort: 80
   selector:
