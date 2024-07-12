@@ -4,6 +4,7 @@ metadata:
   name: apache-ro
   namespace: apache-ns
 spec:
+  replicas: 5
   template:
     metadata:
       labels:
